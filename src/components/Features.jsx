@@ -91,4 +91,17 @@ const Section = styled.section`
       }
     }
   }
+  @media screen and (min-width: 280px) and (max-width: 768px) {
+    .features {
+      flex-direction: column;
+      margin: 0;
+      .feature {
+        justify-content: center;
+        .info {
+          flex-direction: column;
+          justify-content: center;
+        }
+      }
+    }
+  }
 `;
