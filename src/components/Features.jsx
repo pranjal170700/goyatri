@@ -4,12 +4,12 @@ import myImage from "../assets/myImage.jpg";
 
 export default function Features() {
   return (
-    <Section>
+    <Section id="features">
       <div className="title">
         <h2>Happy Customers</h2>
       </div>
       <div className="features">
-        <div className="featur">
+        <div className="feature">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. In
             deserunt consequatur repudiandae, illum eligendi asperiores.
@@ -22,7 +22,7 @@ export default function Features() {
             </div>
           </div>
         </div>
-        <div className="featur">
+        <div className="feature">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. In
             deserunt consequatur repudiandae, illum eligendi asperiores.
@@ -35,7 +35,7 @@ export default function Features() {
             </div>
           </div>
         </div>
-        <div className="featur">
+        <div className="feature">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. In
             deserunt consequatur repudiandae, illum eligendi asperiores.
@@ -63,7 +63,7 @@ const Section = styled.section`
     justify-content: center;
     margin: 0 2rem;
     gap: 2rem;
-    .featture {
+    .feature {
       background-color: aliceblue;
       padding: 2rem;
       border-radius: 0.5rem;
